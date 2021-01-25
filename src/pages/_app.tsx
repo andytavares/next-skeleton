@@ -1,10 +1,9 @@
 import { AppProps } from 'next/app';
-import React from 'react';
-
 import '../styles/globals.scss';
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps }: AppProps) => {
+/* eslint-disable */
+const App = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />;
 };
 
-export default MyApp;
+export default App;

@@ -1,3 +1,10 @@
-$primary: red;
+$font-family-sans-serif: Roboto, system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 
+$primary: #007dae;
+$secondary: #24414d;
+$success: #5ae668;
+$danger: #ce4753;
+$warning: #ffab2b;
+$light: #ffffff;
 @import 'bootstrap/scss/bootstrap.scss';
